@@ -4,7 +4,7 @@ public class ReverseNumber {
 
     public static void main(String[] args) {
 
-        int number = 12345;
+        int number = 1234;
         int reversedNumber = revNum(number);
         System.out.println("Original number: " + number);
         System.out.println("Reversed number: " + reversedNumber);
