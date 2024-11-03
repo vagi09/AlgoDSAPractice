@@ -1,48 +1,39 @@
 package com.arrays;
 
-import java.util.Arrays;
-
 public class arrays {
 
     public static void main(String[] args) {
 
-        // decalre an array named numbers holds numbers
-
-//        int[] num = new int[5];
-
-        int[] numbers= {1, 2, 3, 4, 5};
-
-        String arrayString = Arrays.toString(numbers);
-        System.out.println(arrayString);
-
-        int [] clone = numbers.clone();
-
-        
+        int[] arr = {1, 1, 2, 2, 3, 3, 4};
 
 
-//        System.out.println(numbers[1]);
+        int index = 1;
 
-//        for(int i =0; i<=numbers.length-1; i++){
-//
-//            System.out.println(numbers[i]);
-//        }
+        for (int i = 1; i < arr.length; i++) {
 
-//        int j =0;
-//
-//        while(j<numbers.length){
-//
-//            System.out.println(numbers[j]);
-//
-//            j++;
-//        }
+            if (arr[i] == arr[i - 1]) {
 
-//        for(int ele: numbers){
-//
-//            System.out.println(ele);
-//        }
+                System.out.println(arr[i] + " equals " + arr[i - 1]);
+            } else {
+
+                System.out.println(arr[i] + " not equals to" + arr[i - 1]);
+
+                arr[index] = arr[i];
+
+                index++;
+            }
 
 
+        }
 
+        for (int j = 0; j < index; j++) {
+
+            System.out.println(arr[j] + " ");
+
+
+        }
+
+        System.out.println();
 
 
     }
