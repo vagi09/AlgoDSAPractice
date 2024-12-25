@@ -1,7 +1,5 @@
 package com.strings;
 
-import java.util.function.Predicate;
-
 public class LongestCommonPrefix {
 
     public static void main(String[] args) {
@@ -9,10 +7,10 @@ public class LongestCommonPrefix {
 
 
 
-        System.out.println(str[0].indexOf('k'));
+//        System.out.println(str[0].indexOf('k'));
 
 
-//        System.out.println("Longest Common Prefix: " + longCommonPrefix(str)); // Output: "fl"
+        System.out.println("Longest Common Prefix: " + longCommonPrefix(str)); // Output: "fl"
 
     }
 

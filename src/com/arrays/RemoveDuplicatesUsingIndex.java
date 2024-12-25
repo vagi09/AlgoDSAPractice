@@ -20,7 +20,7 @@ public class RemoveDuplicatesUsingIndex {
             if (arr[i] != arr[i - 1]) {
 
                 arr[uniqueIndex] = arr[i];
-                uniqueIndex++;
+                    uniqueIndex++;
             }
 
 

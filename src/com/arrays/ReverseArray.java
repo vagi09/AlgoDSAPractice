@@ -47,9 +47,6 @@ public class ReverseArray {
             arr[start] = arr[start] / arr[end];
 
 
-
-
-
             start++;
             end--;
         }
